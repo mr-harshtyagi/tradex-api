@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tradex-api"
+version = "0.1.0"
+description = ""
+authors = ["Harsh Tyagi <writetoharshtyagi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+torch = "^2.3.0"
+yfinance = "^0.2.40"
+giza-sdk = "^0.1.1"
+scikit-learn = "^1.4.2"
+pandas = "^1.5.3"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
